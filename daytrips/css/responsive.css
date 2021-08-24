@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 1475px){.carousel-caption{  left:9%; }.carousel-inner img{ height:100% !important;}.banner {
+  height: 540px;
+}#carousel-example-generic,.carousel-inner,.carousel-inner > .item{ height:100%;}}
+@media screen and (max-width: 1230px){.carousel-caption{  left:0%; }.searchoption .nav > li > a{ padding:10px 20px;}}

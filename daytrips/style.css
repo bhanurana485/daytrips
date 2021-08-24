@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document for The Best In Canada */
+
+/*=-=-==-=-= GLobal Classes -=-=-=-=-=*/
+body { margin:0px; padding:0px; background: #fbfbfb url(../images/bg.jpg) repeat-x; }
+* { margin:0px; padding:0px; }
+img { outline:none; }
+img a { outline:none; border:0; }
+a { outline:none; text-decoration:none; }
+li { list-style:none; }
+.clearfix { clear:both }
+input { vertical-align:top; }
+.bg-top { background:url(../images/wall1.png) no-repeat center top; margin:0 auto; min-height:405px; margin:0px; padding:0xp; }
+.wrapper { width:990px; margin:0 auto; }
+/**------------ Header -------------**/
+/**Logo**/
+#header { width:100%; }
+#header .hdr-top { min-height: 330px; }
+#header .logo { height: 133px; outline: medium none; width: 360px; }
+.right-part { float:right; }
+.right-part a { background: none repeat scroll 0 0 #60851B; border-radius: 0 0 8px 8px; color: #FFFFFF; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; padding: 2px 8px; text-decoration: none; }
+/**Close-Logo**/
+
+/**Menu**/
+#header .menu-bg { background:url(../images/menu-bg.png) no-repeat; width:990px; height:49px; }
+.menu-bg .menu { float:left; width:750px; font:16px Arial, Helvetica, sans-serif; }
+.menu ul {/* padding-top:14px;*/ padding-left:15px; }
+.menu li { float:left; display:block; background:url(../images/menu-devider.jpg) no-repeat right; height:33px; padding-top:15px; }
+.menu a { color:#fefffe; text-decoration:none; padding:15px 20px; }
+.menu a:hover { text-decoration:none; color:#030; }
+.menu a.active { background:url(../images/menu-hover.jpg) repeat-x; }
+/**Close-Menu**/
+/**Search**/
+.menu-bg .search { float:right; width:216px; padding-top:13px; margin-right:10px; }
+.search .input { background:url(../images/search-img.png) no-repeat; width:143px; height:18px; padding:3px 10px; border:none; float:left; width:145px; }
+.search .go-btn { float:right; background:url(../images/go-btn.png) no-repeat; width:41px; height:22px; border:none; width:45px; cursor:pointer; outline:none; margin-top:1px; }
+/**Close-Search-input**/
+/**Banner**/
+#header .banner { margin-top:8px; }
+.banner .left { float:left; width:734px; }
+.banner .center { float:left; width:478px; margin-left:8px; background:url(../images/pasta-bnr.jpg) no-repeat; width:478px; height:208px; position:relative; }
+.banner .center .strip { background:url(../images/strip.png) repeat-x; width:100%; height:43px; position:absolute; left: 0px; top: 165px; }
+.strip .text { font: 16px Tahoma, Arial, Helvetica, sans-serif; width:220px; color:#fff; padding:10px 0px 0px 15px; }
+.strip .text span { margin-left:8px; font: 20px Tahoma, Arial, Helvetica, sans-serif; }
+.center .buy-btn { background:url(../images/buy-btn.png) no-repeat; width:109px; height:34px; border:none; position:absolute; cursor:pointer; left: 242px; top: 171px; }
+.center .show-detail { background:url(../images/show-detail.png) no-repeat; width:109px; height:34px; border:none; position:absolute; cursor:pointer; left: 361px; top: 171px; }
+.banner .right { float:left; width:248px; margin-left:8px; }
+/**Close-Banner**/
+/**------------ Close-Header -------------**/
+
+/**------------ Main -------------**/
+#main { margin-top:8px; font:13px Arial, Helvetica, sans-serif; color:#2c2c2c; }
+/**Main-Left**/
+#main .left { float:left; width:734px; }
+.box { margin-top:8px; position:relative; }
+.box:first-child { margin-top:0px; }
+.left .heading-1 { background:url(../images/heading-1.png) no-repeat; width:288px; height:32px; position:absolute; top:15px; font:19px Tahoma, Geneva, sans-serif; padding:7px 15px; color:#fff; }
+.left .heading-2 { background:url(../images/heading-2.jpg) no-repeat; width:140px; height:32px; position:absolute; top:15px; font:19px Tahoma, Geneva, sans-serif; padding:7px 15px; color:#fff; }
+.box-top { background:url(../images/box-top.jpg) no-repeat; width:726px; height:4px; margin-left:8px;padding-top: 4px;padding-left: 9px; }
+.box-center { background: none repeat scroll 0 0 #F5F5F5; border: 1px dashed #DEDEDE; padding-left: 9px; margin-left: 8px; min-height: 100px; padding-bottom:20px; padding-top: 48px; width: 905px; }
+.box-center p { padding:15px 20px 0; line-height:18px; }
+.box-center .image { float:left; margin:18px 0px 0px 15px; }
+.box-center .text { float:right; width:480px; margin-top:18px }
+.box-center .text h5 { font-weight:bold; font-size:13px; }
+.box-center .text p { padding:8px 20px 10px 0; line-height:18px; }
+.read-more a { text-decoration:underline; color:#2c2c2c; }
+.read-more a:hover { text-decoration:none; }
+.read-more span a { float:right; color:#c91324; font-size:13px; text-decoration:underline; }
+.box-bottom { background:url(../images/box-bottom.jpg) no-repeat; width:726px; height:4px; margin-left:8px; }
+/**Close-Main-Left**/
+
+/**Main_right**/
+
+
+#main .right { border: 1px dashed #BEBEBE; float: right; padding-top: 50px; position: relative; width: 233px; }
+.right .banner { margin-bottom: 20px; margin-top: 10px; width: 240px; }
+.right .video { margin-top:10px; }
+.right .newsletter { background:url(../images/newsletter.png) no-repeat; width:248px; height:273px; }
+.newsletter .area { margin: 0 auto; padding-top: 60px; width: 204px; }
+.area .input { background: none repeat scroll 0 0 #FFFFFF; border: 2px solid #9A9A9A; border-radius: 8px 8px 8px 8px; height: 22px; line-height: 22px; margin-top: 8px; padding: 3px 10px; width: 182px; }
+.area p { font:12px Arial, Helvetica, sans-serif; color:#fff; padding-top:13px; }
+.area .sign-up { background:url(../images/sign-up.jpg) no-repeat; width:191px; height:34px; border:none; cursor:pointer; margin-top:15px; }
+.right .blog { margin-top:10px; }
+.blog a { text-decoration:underline; color:#2c2c2c; }
+.blog a:hover { text-decoration:none; }
+.blog .top { background:url(../images/blog-top.jpg) no-repeat; width:248px; height:33px; }
+.blog .center { background:url(../images/blog-center.jpg) repeat-y; width:228px; min-height:100px; padding:7px 10px 15px; }
+.blog .center span { font-size:11px; }
+.blog .center P { padding-top:10px; }
+.blog .center h4 { font:16px Arial, Helvetica, sans-serif; color:#656666; font-weight:bold; }
+.blog .bottom { background:url(../images/blog-bottom.jpg) no-repeat; width:248px; height:8px; }
+/**Close-Main-Right**/
+
+/**Main-Bottom**/
+#main .main-bottom { width:100%; margin-top:10px; }
+.main-bottom .box1:first-child { width:320px; float:left; margin-left:6px; }
+.main-bottom .box1 { width:320px; float:left; margin-left:12px; }
+/**Close-Main-Bottom**/
+/**------------ CLose-Main -------------**/
+
+/**------------ Footer -------------**/
+.footer { background:url(../images/footer-bg.jpg) repeat-x; width:100%; height:212px; margin-top:164px; }
+.footer .inner-footer { width:980px; margin:0 auto; padding-top:15px; }
+.inner-footer h3 { background:url(../images/leaf.jpg) no-repeat left; padding:5px 0 0 0px; font:18px Tahoma, Geneva, sans-serif; color:#ca1425; }
+/**Cities-Name**/
+.inner-footer .left { float:left; width:600px; }
+.inner-footer .left .links { float:left; width:180px;  color:#2c2c2c; font:14px Arial, Helvetica, sans-serif; }
+.links ul { padding-top:15px; }
+.links li { line-height:22px; }
+.links a { color:#2c2c2c; text-decoration:none; }
+.links a:hover { color:#2c2c2c; text-decoration:underline; }
+/**Social-Media-Icon**/
+.inner-footer .right { float:right; width:220px; position:relative; }
+.icon-area { margin:15px 0 0 30px; width:200px; }
+.icon-area .icon { width:40px !important; float:left; margin-left:10px; }
+.best-canada { background:url(../images/best-canada.jpg) no-repeat; width:166px; height:19px; position:absolute; left: 110px; top: 130px; }
+/**Sub-Footer**/
+.sub-footer { margin-top:23px; color:#6e6e6e; font:12px Arial, Helvetica, sans-serif; }
+.sub-footer .left { float:left; width:400px; }
+.sub-footer .right { float:right; width:380px; }
+.sub-footer .right ul { }
+.sub-footer .right li { float:left; display:block; margin-left:8px; }
+.sub-footer .right a { color:#6e6e6e; text-decoration:none; }
+.sub-footer .right a:hover { text-decoration:underline; }
+/**------------ CLose-Footer -------------**/
+
+
+/**------------ Login-CSS -------------**/
+.login-bg { background:url(../images/login-bg.jpg) no-repeat; width:990px; height:267px; margin:30px 0 }
+.login-bg .left-login { float:left; width:300px; padding:0px 0px 0px 40px; }
+.login-top { background:url(../images/login-top.jpg) no-repeat; width:277px; height:44px; margin-top:-8px; }
+.login-center { background:#15a4c6 url(../images/login-center.jpg) repeat-x bottom; width:277px; min-height:222px; padding-top:10px; color:#fff; }
+.login-center a { color:#fff; text-decoration:underline; }
+.login-center a:hover { text-decoration:none; }
+.input-area { margin-top:15px; }
+.input-area .left-icon { width:38px; float:left; text-align:right; padding-top:5px; }
+.input-area .right-input { width:233px; float:right; }
+.login-input { background:url(../images/login-input.png) no-repeat; width:190px; height:20px; border:none; padding:5px 10px; line-height:22px; color:#727272; }
+.login-btn { background:url(../images/login-btn.jpg) no-repeat; width:123px; height:28px; border:none; cursor:pointer; margin-top:5px; }
+.login-bottom { background:url(../images/login-bottom.jpg) no-repeat; width:277px; height:6px; }
+.login-bg .right-login { float:right; width:630px; margin-top:25px; font:14px Arial, Helvetica, sans-serif; }
+.right-login h4 { font:17px Arial, Helvetica, sans-serif; font-weight:bold; }
+.right-login p { font:16px Arial, Helvetica, sans-serif; padding-top:12px; }
+.right-login ul { padding-top:20px; }
+.right-login li { line-height:25px; list-style:none; background:url(../images/bullet.jpg) no-repeat 0 8px; padding-left:15px; }
+.open-account { margin:20px 0; }
+.open-account-btn { background:url(../images/open-account.jpg) no-repeat; width:174px; height:38px; border:none; cursor:pointer; }
+/**------------ CLose-Login-CSS -------------**/
+
+/**------------form-elements-page-------------**/
+.form-box-top { width:736px; height:23px; background:url(../images/form-top.jpg) no-repeat; }
+.form-box-center { background:url(../images/form-center.jpg); background-repeat:repeat-y; width: 736px; }
+.form-box-bottom { width:736px; height:23px; background:url(../images/form-bottom.jpg) no-repeat; }
+.form-box-center h1 { font:18px Arial, Helvetica, sans-serif; margin: 0 30px; padding-bottom: 5px; border-bottom: 1px solid #CFCFCF; }
+.main-form-box { padding: 10px 50px; width:546px; }
+.form-box { width: 490px; margin-top: 15px; }
+.text-field { width:150px; float:left; font:13px Arial, Helvetica, sans-serif; }
+.form-field { width:215px; float:left; font:13px Arial, Helvetica, sans-serif; }
+.width1 { width:215px; padding: 5px; border: 1px solid #CFCFCF; }
+.width2 { width:50px; padding: 5px; border: 1px solid #CFCFCF; }
+.width3 { width:320px; padding: 5px; border: 1px solid #CFCFCF; }
+.submit-btn { background-image: url("../images/submit-button.png"); background-repeat: no-repeat; border: 1px solid #FFF; color: #fff; height: 27px; width: 104px; padding: 0 0 2px; }
+.submit-btn:hover { background-image: url("../images/submit-button-hover.png"); background-repeat: no-repeat; border: 1px solid #fff; color: #fff; height: 27px; width: 104px; padding: 0 0 2px; }
+ .fieldinput {
+text-decoration: none;
+}
+.fieldinput:hover { border: 1px solid #a60817; }
+/**-----------End-form-elements-page-------------**/
+
+/**-----------info-validation------------**/
+.info-validation { margin: 10px auto 0; background: url(../images/validation-bg.png) repeat-x; padding: 10px; width: 650px; border:solid 1px #dacf79; }
+.info-validation ul { padding:0; display:block; list-style-type:none; }
+.info-validation li { text-decoration:none; color:#000; line-height: 20px; padding-left: 40px; background:url(../images/info-icon.png) no-repeat; font-size:13px; font-weight:bold; color:#5c5c5c; }
+/**-----------warning-validation------------**/
+.warning-validation { margin: 10px auto 0; background: url(../images/warning-bg.png) repeat-x; padding: 10px; width: 650px; border:solid 1px #c55e57; }
+.warning-validation ul { padding:0; display:block; list-style-type:none; }
+.warning-validation li { text-decoration:none; line-height: 20px; padding-left: 40px; background:url(../images/warning-btn.png) no-repeat; font-size:13px; font-weight:bold; color:#3f3f3f; }
+/**-----------success-validation------------**/
+.success-validation { margin: 10px auto 0; background: url(../images/success-bg.png) repeat-x; padding: 10px; width: 650px; border:solid 1px #98d48f; }
+.success-validation ul { padding:0; display:block; list-style-type:none; }
+.success-validation li { text-decoration:none; color:#000; line-height: 20px; padding-left: 40px; background:url(../images/success-icon.png) no-repeat; font-size:13px; font-weight:bold; color:#5c5c5c; }
+.tour-offer { background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #DBDBDB; float: left; margin-left: 18px; margin-top: 20px; padding: 4px 0; width: 215px; }
+.tour-offer strong { color: #A80A18; text-align: center; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; border-color: #DBDBDB -moz-use-text-color; border-image: none; border-style: dashed none; border-width: 1px medium; display: block; font-size: 16px; margin: 5px 0; padding: 1px 0; }
+.tour-offer .tour-img { text-align: center; }
+.tour-offer .tour-text { padding:6px; }
+.tour-offer .place-time { color: #4E7604; float: left; font-weight: bold; }
+.tour-offer .price { background: none repeat scroll 0 0 #A80A18; border-radius: 6px 6px 6px 6px; color: #FFFFFF; float: right; font-size: 14px; font-weight: bold; padding: 3px; }
+.heading2 { background: url("../images/heading-1.png") no-repeat scroll 0 0 transparent; color: #FFFFFF; font: 19px Tahoma, Geneva, sans-serif; height: 32px; padding: 7px 15px; position: absolute; right: 0; top: 15px; width: 209px; }
+.right .tour-offer { background: none repeat scroll 0 0 transparent; border: medium none; float: left; margin: 0 auto 20px; padding: 4px 0; width: 233px; }
+.right .tour-offer strong { color: #A80A18; text-align: center; -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; border-color: #DBDBDB -moz-use-text-color; border-image: none; border-style: dashed none; border-width: 1px medium; display: block; font-size: 16px; margin: 5px 0; padding: 1px 0; }
+.right .tour-offer .tour-img { text-align: center; }
+.right .tour-offer .tour-text { padding:6px; }
+.right .tour-offer .place-time { color: #4E7604; float: left; font-weight: bold; }
+.right .tour-offer .price { background: none repeat scroll 0 0 #A80A18; border-radius: 6px 6px 6px 6px; color: #FFFFFF; float: right; font-size: 14px; font-weight: bold; padding: 3px; }
+
+.services.admin form{ border:1px solid #ddd; background :#fff; }

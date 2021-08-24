@@ -1,0 +1,37 @@
+.b1{
+    padding: 4px 6px 4px 6px;
+    background-color: darkgrey;
+    border: none;
+}
+.b1:hover{
+     text-decoration:none; color:#030; 
+}
+.h{
+    padding-top: 155px;
+    margin-bottom: 5px;
+}
+.m{
+            text-transform: uppercase;
+            padding-top: 3px;
+        }
+        .d{
+            text-transform: uppercase;
+           margin-left: 203px;
+    background-color: greenyellow;
+    padding: 4px 6px 0px 6px;
+        }
+        .d:hover{
+            color: white;
+        }
+        
+        .dal{
+            padding: 4px 6px 4px 6px;
+    background-color: darkgrey;
+    border: none;
+        }
+        .dal:hover{
+             color: white;
+        }
+        .k{
+            margin-left: 203px;
+        }
